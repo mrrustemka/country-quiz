@@ -1,9 +1,13 @@
 import React from "react";
-import { Link } from "@mui/material";
-import { Breadcrumbs } from "@mui/material";
+import Finish from "./Finish";
+import Link from "@mui/material/Link";
 
 function Question() {
-  return <div>Question</div>;
+  return (
+    <div>
+      <Link href="\finish">Finish</Link>
+    </div>
+  );
 }
 
 export default Question;
